@@ -10,8 +10,6 @@ const Header:React.FC<IHeader> = () => {
     <header className={styles.header}>
       <h1 className={styles.title}>Sad Ape Brain</h1>
       <h2 className={styles.subTitle}>Art of dark side of Humanity</h2>
-
-      <Navigation />
     </header>
   );
 }

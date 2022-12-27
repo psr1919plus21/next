@@ -1,0 +1,44 @@
+.wrapper {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.title {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+    max-width: 200px;
+    text-align: center;
+    max-height: 22px;
+    cursor: none;
+    z-index: 2;
+    transition: 900ms ease-in-out;
+}
+
+.img {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 1;
+    transform: scale(0);
+    transition: transform 800ms ease-in-out 900ms;
+}
+
+.wrapperIntro {
+    .img {
+        transform: scale(1);
+    }
+
+    .title {
+        transform: translateY(-200vh);
+        opacity: 0;
+    }
+}

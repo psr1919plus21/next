@@ -9,9 +9,7 @@ interface ILayout {
 const Layout:React.FC<ILayout> = ({children}) => {
     return (
         <div className="layout">
-            <Header />
             {children}
-            <Footer />
         </div>
     );
 }
